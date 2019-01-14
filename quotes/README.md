@@ -14,6 +14,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Description
 this is a quote site that helps the user post their favourite quote and they can get likes and dislikes ,the qoute with the highest qoute gets highlighted and they can even delete the qoute they just posted plus it shows you the time it was posted
 
+## BDD
+. The user types the qoute,author and their name
+. The qoute displays for the user to see ,like,unlike ,time since it was posted and delete button.
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -27,6 +32,17 @@ Run `ng generate component component-name` to generate a new component. You can 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Running unit tests
+
+To start using this project use the following commands:
+
+-git clone https://github.com/swanapole/angular-quotes.git
+
+-cd quotes
+
+-atom .
+
+-code .
+
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
