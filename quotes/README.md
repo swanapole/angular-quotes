@@ -1,6 +1,18 @@
 # Quotes
 
+this is a qoute site 
+14th january 2018
+
+## By
+
+SHILLA CELINEDION SWANAPOLE
+
+## Version
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+
+## Description
+
 
 ## Development server
 
