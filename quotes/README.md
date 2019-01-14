@@ -12,7 +12,7 @@ SHILLA CELINEDION SWANAPOLE
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
 ## Description
-
+this is a quiz site that helps the user post their favourite quote and they can get likes and dislikes ,the qoute with the highest qoute gets highlighted and they can even delete the qoute they just posted plus it shows you the time it was posted
 
 ## Development server
 
