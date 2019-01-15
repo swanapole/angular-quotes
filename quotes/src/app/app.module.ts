@@ -1,17 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { QuotesComponent } from './quotes/quotes.component';
-import { QuotesDetailsComponent } from './quotes-details/quotes-details.component';
-import { QuotesFormComponent } from './quotes-form/quotes-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuotesComponent,
-    QuotesDetailsComponent,
+newQuotes=new Quotes(0," "," "," ",0,0,0, false);
+  @Output() addQuotes = new EventEmitter<Quotes>();
+
+  postQuote(){
+    this.addQuotes.emit(this.newQuote);
+    this.newQuotes=new Quotes(0," "," "," ",0,0,0, false);
+  }    QuotesDetailsComponent,
     QuotesFormComponent
   ],
   imports: [
