@@ -5,7 +5,21 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './quotes-details.component.html',
   styleUrls: ['./quotes-details.component.css']
 })
-export class QuotesDetailsComponent implements OnInit {
+
+  @Input() quote:Quote;
+  @Output() isDelete = new EventEmitter<boolean>();
+  @Output() vote = new EventEmitter<boolean>();
+  deleteQuote(erase:boolean){
+    this.isDelete.emit(erase);
+  }
+
+  addVote(voteCount:boolean){
+    this.vote.emit(voteCount);
+  }
+  constructor() { }
+
+  ngOnInit() {export class QuotesDetailsComponent implements OnInit {
+  
 
   constructor() { }
 
