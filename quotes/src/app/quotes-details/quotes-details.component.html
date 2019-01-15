@@ -1,3 +1,14 @@
-<p>
-  quotes-details works!
-</p>
+<h6>Posted by: {{quotes.submitter}} {{quotes.time | timeCounter}}</h6>
+<!-- <div class="" *ngFor='let quote of quotes'>
+  <li>{{quote.quotes}}</li>
+</div> -->
+<div class="row">
+  <div class="col-md-6">
+    <button class="btn btn-default" (click)="addVote(true)"><i class="far fa-thumbs-up"></i><span>{{quotes.upVote}}</span></button>
+  </div>
+  <div class="col-md-6">
+    <button class="btn btn-default" (click)="addVote(false)"><i class="far fa-thumbs-down"></i><span>{{quotes.downVote}}</span></button>
+  </div>
+</div>
+<br>
+<button class="btn btn-default" (click)='deleteQuotes(true)'>Delete Quote</button>
